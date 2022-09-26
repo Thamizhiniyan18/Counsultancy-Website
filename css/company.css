@@ -1,7 +1,6 @@
 :root {
   --marquee-width: 80vw;
   --marquee-height: 20vh;
-  /* --marquee-elements: 12; */ /* defined with JavaScript */
   --marquee-elements-displayed: 5;
   --marquee-element-width: calc(
     var(--marquee-width) / var(--marquee-elements-displayed)
@@ -15,7 +14,7 @@ body {
 
 .bg-img {
   position: fixed;
-  background-image: url(/images/company.jpg);
+  background-image: url(images/company.jpg);
   width: 100%;
   top: 0px;
   height: 100vh;
@@ -146,7 +145,7 @@ p {
 }
 
 .img-1 {
-  background-image: url(/images/cost\ effective.png);
+  background-image: url(images/cost\ effective.png);
   height: 200px;
   width: 200px;
   background-size: 100%;
@@ -155,7 +154,7 @@ p {
 }
 
 .img-2 {
-  background-image: url(/images/quality.png);
+  background-image: url(images/quality.png);
   height: 200px;
   width: 200px;
   background-size: 100%;
@@ -164,7 +163,7 @@ p {
 }
 
 .img-3 {
-  background-image: url(/images/future\ tech.png);
+  background-image: url(images/future\ tech.png);
   height: 337px;
   width: 600px;
   background-size: 100%;
@@ -173,7 +172,7 @@ p {
 }
 
 .img-4 {
-  background-image: url(/images/tech\ impact.jpg);
+  background-image: url(images/tech\ impact.jpg);
   background-position: center;
   height: 340px;
   width: 600px;

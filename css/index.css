@@ -112,7 +112,7 @@
 
 .parallax-index {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../images/cons.jpg");
+    url("images/cons.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;

@@ -2,7 +2,7 @@
   height: 400px;
   width: 100%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(/images/consultacy\ 1.jpg);
+    url(images/consultacy\ 1.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -65,7 +65,7 @@ p {
 
 .bgcontent {
   background-image: linear-gradient(rgba(0, 0, 0, 0.637), rgba(0, 0, 0, 0.637)),
-    url(/images/consultancy.jpeg);
+    url(images/consultancy.jpeg);
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -97,7 +97,7 @@ p {
 }
 
 .img {
-  background-image: url(/images/services\ 1.jpg);
+  background-image: url(images/services\ 1.jpg);
   height: 700px;
   width: 100%;
   display: flex;
@@ -165,7 +165,7 @@ p {
 }
 
 .imgone {
-  background-image: url(/images/searches.jpg);
+  background-image: url(images/searches.jpg);
   height: 400px;
   width: 300px;
   background-position: center;
@@ -178,7 +178,7 @@ p {
 }
 
 .imgtwo {
-  background-image: url(/images/Management-consultancy.jpg);
+  background-image: url(images/Management-consultancy.jpg);
   height: 500px;
   width: 800px;
   background-position: center;
@@ -193,7 +193,7 @@ p {
   text-align: center;
   height: 520px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(/images/Our-Services.png);
+    url(images/Our-Services.png);
   width: 100%;
   background-repeat: no-repeat;
   background-position: center;
