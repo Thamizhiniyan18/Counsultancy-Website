@@ -1,0 +1,322 @@
+.parallax {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/images/services.jpg);
+  min-height: 200px;
+  background-attachment: fixed;
+  background-position: 0% 0%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: white;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.parallax h2 {
+  text-shadow: 0 0 5px black, 0 0 8px black;
+}
+
+.page-content {
+  justify-content: flex-end;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+.page-content h2 {
+  width: 100%;
+  text-align: center;
+}
+
+.page-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.page-content h2 {
+  padding-bottom: 2%;
+  font-size: 50px;
+}
+
+.page-content p {
+  padding: 1%;
+}
+
+.page-content li {
+  padding: 0%;
+}
+
+h2 {
+  font-family: "Quicksand", sans-serif;
+}
+
+p {
+  font-family: "Dosis", monospace;
+  font-size: 20px;
+}
+
+.page-content ul li {
+  font-family: "Dosis", monospace;
+  font-size: 20px;
+}
+
+.developmentDiv {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  transform: translateY(20%);
+  opacity: 0;
+  transition: 1s ease;
+  max-height: 500px;
+}
+
+.developmentDiv.show {
+  transform: translateY(0%);
+  opacity: 1;
+  transition: 1s ease;
+}
+
+.developmentDiv div {
+  margin: 2%;
+}
+
+.development-div1 {
+  width: 50%;
+  color: white;
+  border-radius: 3%;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.development-div1 p {
+  padding: 2%;
+}
+
+.bgimg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 50%;
+}
+
+.bgimg img {
+  height: 306px;
+  width: 500px;
+  box-shadow: 0 3px 6px rgba(255, 255, 255, 0.16),
+    0 3px 6px rgba(255, 255, 255, 0.23);
+}
+
+.bgImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 260px;
+  width: 50%;
+}
+
+.bgImg img {
+  height: 306px;
+  width: 500px;
+  box-shadow: 0 3px 6px rgba(255, 255, 255, 0.16),
+    0 3px 6px rgba(255, 255, 255, 0.23);
+}
+
+.bg-image {
+  /* The image used */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/images/yellow.jpg");
+  height: 100vh;
+  width: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.filter {
+  height: 120vh;
+  width: 100%;
+}
+
+.sfser {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/images/software-services.png);
+  width: 100%;
+}
+
+.sfser h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1%;
+  background: linear-gradient(to bottom right, #8137725b, #b826015d);
+  letter-spacing: 20px;
+  text-shadow: 0 0 5px #ffffff, 0 0 8px #ffffff;
+}
+
+.sfser ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  margin: 2%;
+}
+
+.sfser ul li {
+  color: rgb(255, 255, 255);
+  padding: 1%;
+  text-align: center;
+  letter-spacing: 1px;
+  font-weight: 900;
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.72);
+  border: solid 2px rgba(255, 255, 255, 0.459);
+  margin: 1%;
+  width: 100%;
+}
+
+@media screen and (min-width: 1500px) {
+  .bg-image {
+    height: 80vh;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .parallax {
+    background-size: 120%;
+    background-position: 60% 0%;
+  }
+
+@media screen and (max-width: 1000px) {
+  .parallax {
+    background-size: 180%;
+    background-position: 60% 0%;
+  }
+
+  .bg-image {
+    /* The image used */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("/images/yellow\ portrait.jpg");
+    height: 170vh;
+    width: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .developmentDiv.show {
+    justify-content: center;
+    max-height: 700px;
+    text-align: center;
+    width: 90%;
+  }
+
+  .developmentDiv.show div {
+    margin: 3%;
+  }
+
+  .development-div1 {
+    width: 100%;
+  }
+
+  .dddd {
+    flex-direction: column;
+  }
+
+  .ddd {
+    flex-direction: column-reverse;
+  }
+
+  .development-div1 {
+    justify-content: center;
+  }
+
+  .sfser ul {
+    margin: 2%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .parallax {
+    background-size: 500%;
+    background-position: 60% 0%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .parallax {
+    background-size: 400%;
+    background-position: 60% 0%;
+  }
+  
+  .page-content h2 {
+    padding-bottom: 2%;
+    font-size: 30px;
+  }
+
+  .bg-image {
+    height: 200vh;
+  }
+
+  .developmentDiv.show div {
+    margin: 6%;
+  }
+
+  .sfser ul {
+    margin: 10%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .page-content h2 {
+    padding-bottom: 2%;
+    font-size: 25px;
+  }
+
+  .parallax {
+    background-size: 300%;
+    background-position: 69% 0%;
+  }
+}
+
+@media screen and (max-width: 650px) { 
+  .bgImg img {
+    height: 206px;
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .page-content ul li {
+    font-family: "Dosis", monospace;
+    font-size: 15px;
+  }
+
+  .parallax {
+    background-size: cover;
+    background-position: 60% 0%;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .page-content ul li {
+    font-family: "Dosis", monospace;
+    font-size: 10px;
+  }
+
+  .bg-image {
+    height: 240vh;
+  }
+}

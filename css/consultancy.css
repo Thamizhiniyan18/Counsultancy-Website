@@ -1,0 +1,319 @@
+.bgimg {
+  height: 400px;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/images/consultacy\ 1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.page-content {
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.page-content h2 {
+  width: 100%;
+  text-align: center;
+  background: linear-gradient(to bottom right, #813772, #b82601);
+  padding: 1%;
+}
+
+.page-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.page-content h2 {
+  padding-bottom: 2%;
+  font-size: 50px;
+}
+
+.page-content p {
+  padding: 1%;
+}
+
+.page-content li {
+  padding: 0%;
+}
+
+h2,
+h3 {
+  font-family: "Quicksand", sans-serif;
+}
+
+p {
+  font-family: "Dosis", monospace;
+  font-size: 20px;
+}
+
+.page-content ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.page-content ul li {
+  font-family: "Dosis", monospace;
+  font-size: 20px;
+  text-align: center;
+}
+
+.bgcontent {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.637), rgba(0, 0, 0, 0.637)),
+    url(/images/consultancy.jpeg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.developmentDiv {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.developmentDiv div {
+  width: 50%;
+  margin: 2%;
+  border-radius: 10px;
+}
+
+.development-div1 {
+  color: white;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  border-radius: 10px;
+  text-align: center;
+  padding: 2%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img {
+  background-image: url(/images/services\ 1.jpg);
+  height: 700px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  overflow: hidden;
+}
+
+.img div {
+  width: 60%;
+  margin: 3%;
+  padding: 4%;
+}
+
+.one {
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: 1s ease;
+}
+
+.two {
+  transform: translateX(50%);
+  opacity: 0;
+  transition: 1s ease;
+}
+
+.thr33 {
+  transform: translateX(-10%);
+  opacity: 0;
+  transition: 1s ease;
+}
+
+.f0ur {
+  transform: translateX(10%);
+  opacity: 0;
+  transition: 1s ease;
+}
+
+.one.show {
+  transform: translateX(-40%);
+  opacity: 1;
+  transition: 1s ease;
+}
+
+.two.show {
+  transform: translateX(40%);
+  opacity: 1;
+  transition: 1s ease;
+}
+
+.thr33.show {
+  transform: translateX(0%);
+  opacity: 1;
+  transition: 1s ease;
+}
+
+.f0ur.show {
+  transform: translateX(0%);
+  opacity: 1;
+  transition: 1s ease;
+}
+
+.imgone {
+  background-image: url(/images/searches.jpg);
+  height: 400px;
+  width: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.three {
+  width: 50%;
+}
+
+.imgtwo {
+  background-image: url(/images/Management-consultancy.jpg);
+  height: 500px;
+  width: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.four {
+  width: 50%;
+}
+
+.list {
+  text-align: center;
+  height: 520px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/images/Our-Services.png);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.list h3 {
+  background-color: rgba(255, 255, 255, 0.561);
+  width: 100%;
+  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+    -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+  font-size: 50px;
+  padding: 2%;
+}
+
+.list ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.list ul li {
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 25px;
+  text-align: center;
+  margin: 3%;
+  color: red;
+  padding: 2%;
+  background-color: rgba(255, 255, 255, 0.678);
+  border: solid rgba(0, 0, 0, 0.534);
+  border-radius: 3%;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+@media screen and (max-width: 1500px) {
+  .bgcontent {
+    background-size: 150%;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  .bgcontent {
+    height: 110vh;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .bgimg {
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .img {
+    background-size: cover;
+  }
+
+  .imgtwo {
+    height: 300px;
+    background-size: 100%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .page-content h2 {
+    padding-bottom: 2%;
+    font-size: 30px;
+  }
+
+  .img {
+    margin: 0%;
+  }
+
+  .thr33 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+  }
+
+  .bgcontent {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bgcontent div {
+    transform: translateX(10%);
+  }
+
+  .bgcontent {
+    height: 150vh;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .page-content h2 {
+    padding-bottom: 2%;
+    font-size: 25px;
+  }
+
+  .bgimg {
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .bgcontent {
+    height: 160vh;
+  }
+
+  .bgimg {
+    height: 200px;
+  }
+}
