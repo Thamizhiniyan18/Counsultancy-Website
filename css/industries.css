@@ -55,7 +55,7 @@ p {
   position: fixed;
   top: 0vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(images/world\ wide.jpg);
+    url(../images/world\ wide.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
   height: 100vh;

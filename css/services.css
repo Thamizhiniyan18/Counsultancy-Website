@@ -1,6 +1,6 @@
 .parallax {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(images/services.jpg);
+    url(../images/services.jpg);
   min-height: 200px;
   background-attachment: fixed;
   background-position: 0% 0%;
@@ -128,7 +128,7 @@ p {
 .bg-image {
   /* The image used */
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("images/yellow.jpg");
+    url("../images/yellow.jpg");
   height: 100vh;
   width: 100%;
   /* Center and scale the image nicely */
@@ -147,7 +147,7 @@ p {
   flex-direction: column;
   align-items: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(images/software-services.png);
+    url(../images/software-services.png);
   width: 100%;
 }
 
